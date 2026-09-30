@@ -1,4 +1,3 @@
-# mi-chat-ia[index.html](https://github.com/user-attachments/files/32853309/index.html)
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -104,7 +103,7 @@ Coge lo mejor de cada una, elimina duplicados y da una respuesta clara y estruct
   }
 
   async function consultarGemini(apiKey, text) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`;
     const res = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
